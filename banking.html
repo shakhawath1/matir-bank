@@ -20,15 +20,15 @@
             <div class="grid grid-cols-3 gap-4 text-white font-semibold">
                 <div class="bg-cyan-300 p-8 rounded">
                     <h3 class="text-2xl">Deposit</h3>
-                    <h4 class="text-4xl">$00</h4>
+                    <h4 class="text-4xl">$<span id="total-deposit">00</span></h4>
                 </div>
                 <div class="bg-red-300 p-8 rounded">
                     <h3 class="text-2xl">Withdraw</h3>
-                    <h4 class="text-4xl">$00</h4>
+                    <h4 class="text-4xl">$<span id="total-withdraw">00</span></h4>
                 </div>
                 <div class="bg-orange-300 p-8 rounded">
                     <h3 class="text-2xl">Balance</h3>
-                    <h4 class="text-4xl">$00</h4>
+                    <h4 class="text-4xl">$<span id="total-balance">00</span></h4>
                 </div>
             </div>
         </section>
@@ -39,15 +39,15 @@
                     <h3 class="text-2xl">Please Diposit</h3>
                     <input id="deposit-amount" class="block border border-cyan-200 rounded w-3/5 px-2 mt-4" type="text"
                         placeholder="$Amount">
-                    <button id="deposot-btn"
-                        class="bg-rose-500 text-base text-white font-semibold px-4 rounded mt-6">Deposit</button>
+                    <button id="deposit-btn"
+                        class="bg-lime-700 text-base text-white font-semibold px-4 rounded mt-6">Deposit</button>
                 </div>
                 <div class="font-semibold bg-teal-100 p-4 rounded">
                     <h3 class="text-2xl">Please Withdraw</h3>
                     <input id="withdraw-amount" class="block border border-cyan-200 rounded w-3/5 px-2 mt-4" type="text"
                         placeholder="$Amount">
                     <button id="withdraw-btn"
-                        class="bg-rose-500 text-base text-white font-semibold px-4 rounded mt-6">Withdraw</button>
+                        class="bg-red-500 text-base text-white font-semibold px-4 rounded mt-6">Withdraw</button>
                 </div>
             </div>
         </section>
