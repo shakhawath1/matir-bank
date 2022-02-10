@@ -11,6 +11,6 @@ document.getElementById('login-btn').addEventListener('click', function () {
         window.location.href = 'banking.html'
     }
     else {
-        'Please enter the correct email and password'
+        alert('Please enter the correct email and password');
     }
 })
